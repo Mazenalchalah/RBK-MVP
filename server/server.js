@@ -1,6 +1,6 @@
 var express=require("express");
 var path=require('path');
-var bodyParser=require('body-Parser');
+var bodyParser=require('body-parser');
 var app=express();
 var db=require('../database')
 var request = require('request')
