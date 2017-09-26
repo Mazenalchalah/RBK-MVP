@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ToDO">
+<head>
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #008CBA;} /* Blue */
+body {
+    background-color: #b3d9ff;
+}
+}
+
+
+</style>
+<meta charset="utf-8">
+	<title>ToDO</title>
+	
+</head>
+<body>
+<style >
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+
+</style>
+
+<form action="/add" method="POST" name="frm" >
+  <label for="fname">Your Name</label>
+<input type="text" name="name" />
+<label for="fname">Your Taks</label>
+    <input type="text" name="newtodo" />
+    <button class="button button2">Submit Task</button>
+</form>
+
+<form action="/show" method="POST" name="frmm">
+<label for="fname">Your Name</label>
+<input type="text" name="nameee" />
+    <button class="button button3">Show Tasks</button>
+</form>
+</body>
+</html>

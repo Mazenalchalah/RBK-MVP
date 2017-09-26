@@ -1,0 +1,29 @@
+{
+  "name": "mvp_project",
+  "version": "1.0.0",
+  "description": "Project Name: -signup -login - client post picture on webpage",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazenalchalah/mvp_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mazenalchalah/mvp_project/issues"
+  },
+  "homepage": "https://github.com/Mazenalchalah/mvp_project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
+    "request": "^2.82.0"
+  }
+}
